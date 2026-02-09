@@ -1,4 +1,3 @@
----
 
 # 📊 Comparative Financial Statement Analysis (Retail)
 
@@ -23,7 +22,6 @@
 * **Turnaround Signal:** Detected Kohl's recovery from a Net Loss in 2022 to positive Net Income in 2023, though margins remain tight.
 
 
----
 
 # 🏦 LendingClub: Fintech Transformation & Credit Risk Analysis
 

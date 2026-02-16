@@ -42,3 +42,28 @@
 * **Model Validation:** The model confirmed that FICO score and DTI are the strongest predictors of default, validating the bank's core scorecard variables.
 * **Strategic Recommendation:** Recommended expanding into **Auto Refinancing** to utilize the new low-cost deposit base for secured, lower-risk lending.
 
+---
+
+# 📉 Hedge Fund Strategy: Cross-Industry Financial Analysis
+
+**Role Focus:** Quant Researcher | Equity Analyst | Portfolio Management
+**Tech Stack:** Python, Pandas, Seaborn, Fundamental Analysis
+
+## 1. The Business Strategy (The "Why")
+**Objective:** Assist a Hedge Fund Manager in allocating capital by benchmarking the financial health of companies across **Technology**, **FMCG**, and **Real Estate** sectors.
+* **Strategic Goal:** Normalize financial data to identify sector-specific risk profiles. Specifically, to determine if the high debt load in Real Estate is a risk factor or a growth driver.
+
+## 2. Technical Methodology (The "How")
+* **Data Engineering:** Merged disparate Balance Sheet and Income Statement datasets to calculate unified financial ratios.
+* **Ratio Modeling:**
+    * **Leverage (Debt-to-Equity):** Quantified financial distress risk.
+    * **Profitability (Gross Margin):** Quantified operational efficiency.
+* **Hypothesis Testing:** Used **Seaborn Regression Plots** to analyze the correlation between leverage and profitability within specific sectors.
+
+## 3. Key Findings (The "View")
+* **Sector Benchmarking:**
+    * **Real Estate** carries the highest risk (Leverage Ratio: **5.69**), nearly 3x higher than the Tech sector (1.77).
+    * **FMCG** operates on the thinnest margins (Profitability: **0.51**), relying on volume rather than pricing power.
+* **Investment Insight:** The analysis confirmed a **Positive Correlation** between leverage and profitability in Real Estate.
+    * *Actionable Takeaway:* In the current dataset, Real Estate companies utilizing more debt are effectively generating superior returns, validating a "High Leverage" strategy for this specific asset class.
+

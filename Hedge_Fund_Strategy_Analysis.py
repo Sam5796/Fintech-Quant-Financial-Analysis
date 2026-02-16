@@ -33,7 +33,11 @@ lowest_profitability = "fmcg"
 print(df_ratios.pivot_table(index="comp_type", values="leverage_ratio"))
 highest_leverage = "real_est"
 
+
 # Plot the leverage ratio on x-axis and profitability on y axis to see if real estate companies with higher leverage ratio have  higher profitability
 df_real_est = df_ratios.loc[df_ratios["comp_type"]=="real_est"]
 plot = sns.regplot(data=df_real_est, x="leverage_ratio", y="profitability_ratio")
 relationship = "positive" 
+
+
+
